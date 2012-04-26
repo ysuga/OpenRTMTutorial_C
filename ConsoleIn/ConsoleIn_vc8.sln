@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{D75F0557-A9AF-4114-B1BC-9EA81856D8B6}") = "ConsoleInComp", "ConsoleInComp_vc8.vcproj", "{5FF5C600-FC3F-4A5D-921A-54F9599DFB8A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{D75F0557-A9AF-4114-B1BC-9EA81856D8B6}") = "ConsoleIn", "ConsoleIn_vc8.vcproj", "{03F60E27-66D5-4767-B0CC-EA6F3F02C622}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FF5C600-FC3F-4A5D-921A-54F9599DFB8A}.Release|Win32.ActiveCfg = Release|Win32
+		{5FF5C600-FC3F-4A5D-921A-54F9599DFB8A}.Release|Win32.Build.0   = Release|Win32
+		{5FF5C600-FC3F-4A5D-921A-54F9599DFB8A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5FF5C600-FC3F-4A5D-921A-54F9599DFB8A}.Debug|Win32.Build.0   = Debug|Win32
+		{03F60E27-66D5-4767-B0CC-EA6F3F02C622}.Release|Win32.ActiveCfg = Release|Win32
+		{03F60E27-66D5-4767-B0CC-EA6F3F02C622}.Release|Win32.Build.0   = Release|Win32
+		{03F60E27-66D5-4767-B0CC-EA6F3F02C622}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03F60E27-66D5-4767-B0CC-EA6F3F02C622}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
