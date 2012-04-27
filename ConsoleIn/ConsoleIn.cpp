@@ -108,6 +108,10 @@ RTC::ReturnCode_t ConsoleIn::onDeactivated(RTC::UniqueId ec_id)
 
 RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id)
 {
+	long data;
+	std::cin >> data;
+	m_out.data = data;
+	m_outOut.write();
   return RTC::RTC_OK;
 }
 

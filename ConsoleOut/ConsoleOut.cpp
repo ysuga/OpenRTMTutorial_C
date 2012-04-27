@@ -105,12 +105,15 @@ RTC::ReturnCode_t ConsoleOut::onDeactivated(RTC::UniqueId ec_id)
 }
 */
 
-/*
 RTC::ReturnCode_t ConsoleOut::onExecute(RTC::UniqueId ec_id)
 {
+	if(m_inIn.isNew()) {
+		m_inIn.read();
+		long data = m_in.data;
+		std::cout << "data is " << data << std::endl;
+	}
   return RTC::RTC_OK;
 }
-*/
 
 /*
 RTC::ReturnCode_t ConsoleOut::onAborting(RTC::UniqueId ec_id)

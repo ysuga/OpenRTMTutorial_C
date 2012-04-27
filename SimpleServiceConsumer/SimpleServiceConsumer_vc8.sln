@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{EAB76CA8-0F7D-40CC-AC55-DFDE26CB6068}") = "SimpleServiceConsumerComp", "SimpleServiceConsumerComp_vc8.vcproj", "{859FDFF1-422B-47AD-B5FB-E79BFDD0757B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{EAB76CA8-0F7D-40CC-AC55-DFDE26CB6068}") = "SimpleServiceConsumer", "SimpleServiceConsumer_vc8.vcproj", "{C5F83777-AF68-4C36-966E-F6E35ACA73E9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{859FDFF1-422B-47AD-B5FB-E79BFDD0757B}.Release|Win32.ActiveCfg = Release|Win32
+		{859FDFF1-422B-47AD-B5FB-E79BFDD0757B}.Release|Win32.Build.0   = Release|Win32
+		{859FDFF1-422B-47AD-B5FB-E79BFDD0757B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{859FDFF1-422B-47AD-B5FB-E79BFDD0757B}.Debug|Win32.Build.0   = Debug|Win32
+		{C5F83777-AF68-4C36-966E-F6E35ACA73E9}.Release|Win32.ActiveCfg = Release|Win32
+		{C5F83777-AF68-4C36-966E-F6E35ACA73E9}.Release|Win32.Build.0   = Release|Win32
+		{C5F83777-AF68-4C36-966E-F6E35ACA73E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5F83777-AF68-4C36-966E-F6E35ACA73E9}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
